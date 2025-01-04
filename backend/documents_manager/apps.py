@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class GetdocumentsConfig(AppConfig):
+class DocumentsManagerConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'getdocuments'
+    name = 'documents_manager'

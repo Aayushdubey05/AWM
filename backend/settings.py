@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-8^@j%wd1v@v$jm3%nr7hmv+7d1!ctcv2azmmvu$*8+)+tbl)os'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True  # In production, it should be False
 
 ALLOWED_HOSTS = []
 
@@ -108,6 +108,8 @@ LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
+
+USE_L10N = True
 
 USE_TZ = True
 
